@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features="src\\test\\java\\features\\ChromeTest.feature",
 		glue= {"stepdefinitions"},
-		monochrome=true,
+		monochrome=false,
 		strict=true,
 		dryRun=false,
 		plugin = {"pretty"}
